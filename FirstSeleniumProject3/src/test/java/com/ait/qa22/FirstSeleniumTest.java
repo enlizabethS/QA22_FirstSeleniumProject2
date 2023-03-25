@@ -14,7 +14,7 @@ public class FirstSeleniumTest {
     @BeforeMethod
     public void setUp() {
          driver = new FirefoxDriver();
-//        driver = new SafariDriver();
+////        driver = new SafariDriver();
         driver.get("https://www.google.com");
     }
 
